@@ -92,6 +92,10 @@
  }
 
  /* main section styles */
+ main{
+    max-width: 1140px;
+    margin: 0 auto;
+ }
 
  /* about section styles */
  .about{
@@ -101,4 +105,11 @@
     margin: 130px 0;
     text-align: center;
 
+ }
+ .about-info-container{
+    display: flex;
+    justify-content: space-around;
+ }
+ .about info{
+    text-align: center;
  }
