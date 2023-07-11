@@ -138,8 +138,35 @@ box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     color: #757575;
  }
  /* resume section styles */
+ .section-title{
+    color: black;
+ }
  .resume-column-title{
-    color: #474747);
+    color: #474747;
     font-size: 30px;
     font-weight: 700;
  }
+ .resume-container{
+    display: flex;
+    gap: 50px;
+ }
+ .resume-item-title{
+    color:  #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px ;
+ }
+ .resume-item-institute,.resume-item-company{
+    margin-top: 0px;
+    margin-bottom: 20px;
+ }
+ .resume-item-institute,.resume-item-company,.resume-item-description{
+    color: #757575;
+ }
+.resume-container hr{
+    margin: 30px;
+}
+.download-CV{
+    text-align: center;
+    margin-top: 50px;
+}
